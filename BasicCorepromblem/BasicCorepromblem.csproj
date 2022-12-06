@@ -51,6 +51,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuotientRemainders.cs" />
+    <Compile Include="SwappingTwoNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
