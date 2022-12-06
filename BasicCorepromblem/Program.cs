@@ -10,7 +10,7 @@ namespace BasicCorepromblem
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter the Program number which is to be executed \n 1. Flip Coin \n 2. Leap Year \n 3. Power of Two \n 4. Harmonic Number \n 5.Calculating Factor \n 6.QuotientReminders \n 7.Swapping Two Numbers \n 8.Even or Odd \n 9.Exit ");
+            Console.WriteLine("Enter the Program number which is to be executed \n 1. Flip Coin \n 2. Leap Year \n 3. Power of Two \n 4. Harmonic Number \n 5.Calculating Factor \n 6.QuotientReminders \n 7.Swapping Two Numbers \n 8.Even or Odd \n 9.Vowel Or Consonent \n 10.Exit ");
             int option = Convert.ToInt32(Console.ReadLine());
             bool flag = true;
             while (flag)
@@ -51,6 +51,10 @@ namespace BasicCorepromblem
                         num.EvenOdd();
                         break;
                     case 9:
+                        VowelOrConsonant letter = new VowelOrConsonant();
+                        letter.Alphabet();
+                        break;
+                    case 10:
                         flag = false;
                         break;
 
